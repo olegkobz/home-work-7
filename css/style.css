@@ -87,36 +87,44 @@
 }
 
 .without_normalise{
+
     body {
         font-family: Arial, sans-serif;
         line-height: 1.6;
     }
+
     h1, h2, h3 {
         margin: 20px 0;
     }
+
     p {
         margin: 10px 0;
     }
+
     ul {
         margin: 20px;
         padding: 10px;
         list-style-type: circle;
     }
+
     table {
         width: 100%;
         border-collapse: collapse;
         margin: 20px 0;
     }
+
     th, td {
         border: 1px solid #333;
         padding: 10px;
         text-align: left;
     }
+
     input, textarea {
         margin: 10px 0;
         padding: 5px;
         width: 100%;
     }
+
     button {
         padding: 10px 15px;
         border: none;
@@ -124,26 +132,33 @@
         color: white;
         cursor: pointer;
     }
+
     button:hover {
         background-color: #0056b3;
     }
+
 }
 .without_reset{
+
     body {
         font-family: Arial, sans-serif;
         margin: 20px;
     }
+
     table {
         border-collapse: collapse;
         width: 100%;
     }
+
     th, td {
         border: 1px solid black;
         padding: 8px;
         text-align: left;
     }
+
 }
 .display_properties{
+    
     body {
         font-family: Arial, sans-serif;
         line-height: 1.6;
