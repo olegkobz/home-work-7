@@ -1,18 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Block and Inline Elements</title>
+    <title>Блокові та інлайнові елементи</title>
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-<body>
-    <h1>Блокові та інлайнові елементи</h1>
-    <div>
-        Це блоковий елемент <span>а це інлайновий текст всередині блоку.</span>
-    </div>
-    <div>
-        Ще один блоковий елемент.
-        <span style="color: red;">Інлайновий текст зі стилем.</span>
-    </div>
+<body class="block_inline">
+    <nav class="navbar">
+        <div class="container">
+            <a href="README.md" class="logo">Каталог</a>
+            <ul class="nav-menu">
+                <li><a href="block-inline.html">Block vs Inline</a></li>
+                <li><a href="display_properties.html">Display Properties</a></li>
+                <li><a href="normalize.html">Normalize.css</a></li>
+                <li><a href="reset.html">CSS Reset</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <main>
+        <h1>Блокові та інлайнові елементи</h1>
+        
+        <section class="block-elements">
+            <h2>Блокові елементи</h2>
+            <div class="block-example">
+                <p>Це <strong>блоковий</strong> елемент.</p>
+            </div>
+            <div class="block-example">
+                <p>Ще один <strong>блоковий</strong> елемент.</p>
+            </div>
+        </section>
+        
+        <section class="inline-elements">
+            <h2>Інлайнові елементи</h2>
+            <p>
+                Це <span class="inline-example">інлайновий</span> текст у межах блочного елемента.
+            </p>
+            <p>
+                Інший приклад: <a href="#">це посилання</a>, <em>це курсив</em>, <strong>а це жирний текст.</strong>
+            </p>
+        </section>
+        
+        <section class="mixed-elements">
+            <h2>Змішані елементи</h2>
+            <div class="block-example">
+                <p>Це блоковий елемент, який містить інлайнові елементи:</p>
+                <span class="inline-example" style="color: red;">червоний текст</span>, 
+                <strong class="inline-example">жирний текст</strong>, 
+                <a href="#" class="inline-example">посилання</a>.
+            </div>
+        </section>
+    </main>
 </body>
 </html>
