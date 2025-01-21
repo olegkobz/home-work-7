@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Normalize.css</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+</head>
+<body class="without_normalize">
+    <header>
+        <h1>Порівняння Normalize.css</h1>
+        <p>Цей приклад демонструє, як змінюються стилі елементів HTML при використанні Normalize.css.</p>
+    </header>
+
+    <section>
+        <h2>Заголовки</h2>
+        <h1>Заголовок H1</h1>
+        <h2>Заголовок H2</h2>
+        <h3>Заголовок H3</h3>
+    </section>
+
+    <section>
+        <h2>Текстові елементи</h2>
+        <p>Це звичайний абзац тексту.</p>
+        <blockquote>Це блок цитати.</blockquote>
+        <pre>
+            Це приклад попередньо форматованого тексту.
+            Він зберігає пробіли та перенос рядків.
+        </pre>
+    </section>
+
+    <section>
+        <h2>Списки</h2>
+        <ul>
+            <li>Елемент списку 1</li>
+            <li>Елемент списку 2</li>
+            <li>Елемент списку 3</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Таблиця</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Заголовок 1</th>
+                    <th>Заголовок 2</th>
+                    <th>Заголовок 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Комірка 1</td>
+                    <td>Комірка 2</td>
+                    <td>Комірка 3</td>
+                </tr>
+                <tr>
+                    <td>Комірка 4</td>
+                    <td>Комірка 5</td>
+                    <td>Комірка 6</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Форми</h2>
+        <form>
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" placeholder="Введіть ваше ім'я">
+            <label for="message">Повідомлення:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Введіть повідомлення"></textarea>
+            <button type="submit">Надіслати</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Опис змін при підключенні normalize.css</h2>
+        <p>Після підключення <strong>normalize.css</strong> стилі елементів HTML стали більш уніфікованими. Це означає, що базові стилі, такі як відступи, міжрядкові інтервали, стилі списків, таблиць і форм, тепер виглядають однаково у різних браузерах.</p>
+        <p>Зокрема, були скориговані такі моменти:</p>
+        <ul>
+            <li>Заголовки (H1, H2, H3) отримали схожі відступи у верхній і нижній частинах.</li>
+            <li>Списки (`ul`, `ol`) тепер мають стандартний відступ і незначний відступ зліва.</li>
+            <li>Таблиці більше не мають подвійних меж, і відступи в комірках стали однаковими.</li>
+            <li>Текст у формі (`input`, `textarea`) отримав уніфікований вигляд у різних браузерах.</li>
+        </ul>
+        <p>Таким чином, <strong>normalize.css</strong> є корисним інструментом для забезпечення консистентності базових стилів у веб-проектах.</p>
+    </section>
+</body>
+</html>

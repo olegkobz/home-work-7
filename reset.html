@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reset.css</title>
+    <link rel="stylesheet" href="./css/reset.css">
+</head>
+<body class="without_reset">
+    <header>
+        <h1>Порівняння Reset.css</h1>
+        <p>Цей приклад демонструє, як змінюються стилі елементів HTML при використанні Reset.css.</p>
+    </header>
+
+    <section>
+        <h2>Заголовки</h2>
+        <h1>Заголовок H1</h1>
+        <h2>Заголовок H2</h2>
+        <h3>Заголовок H3</h3>
+    </section>
+
+    <section>
+        <h2>Текстові елементи</h2>
+        <p>Це звичайний абзац тексту. Подивіться, як виглядають відступи та міжрядковий інтервал.</p>
+        <blockquote>Це блок цитати. Використовується для виділення тексту.</blockquote>
+        <pre>
+            Це приклад попередньо форматованого тексту.
+            Він зберігає пробіли та перенос рядків.
+        </pre>
+    </section>
+
+    <section>
+        <h2>Списки</h2>
+        <ul>
+            <li>Елемент списку 1</li>
+            <li>Елемент списку 2</li>
+            <li>Елемент списку 3</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Таблиця</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Заголовок 1</th>
+                    <th>Заголовок 2</th>
+                    <th>Заголовок 3</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Комірка 1</td>
+                    <td>Комірка 2</td>
+                    <td>Комірка 3</td>
+                </tr>
+                <tr>
+                    <td>Комірка 4</td>
+                    <td>Комірка 5</td>
+                    <td>Комірка 6</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section>
+        <h2>Форми</h2>
+        <form>
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" placeholder="Введіть ваше ім'я">
+            <label for="message">Повідомлення:</label>
+            <textarea id="message" name="message" rows="4" placeholder="Введіть повідомлення"></textarea>
+            <button type="submit">Надіслати</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Опис змін при підключенні reset.css</h2>
+        <p>Після підключення <strong>reset.css</strong> всі стилі скидаються до базового рівня, що дозволяє створювати свої унікальні стилі з "чистого аркуша".</p>
+        <p>Зокрема, помітні такі зміни:</p>
+        <ul>
+            <li>Видаляються всі базові відступи та стилі для елементів.</li>
+            <li>Списки (`ul`, `ol`) стають повністю незабарвленими та без відступів.</li>
+            <li>Заголовки (`h1`, `h2`, `h3`) втрачають свої стандартні розміри та відступи.</li>
+            <li>Таблиці стають без стилів, включаючи межі та відступи в комірках.</li>
+        </ul>
+        <p>Reset.css підходить для повного контролю над дизайном, оскільки всі браузерні стилі видаляються.</p>
+    </section>
+</body>
+</html>
